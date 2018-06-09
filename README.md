@@ -1,2 +1,6 @@
-# visualization
-visualizing network graphs
+# bokehでグラフを描画する
+bokeh.modelsのgraphsを使い，ノードにカーソルを合わせると画像が表示されるようにする．
+
+graphのrendererとは別に画像を表示させる用のプロットをする．
+
+graph_rendererと画像表示用プロットそれぞれのhover toolを指定する．
